@@ -10,3 +10,7 @@ e) Nombrado por el monarca. Sería el caso, por ejemplo, de Australia.
 f) Monarquía hereditaria. Sería el caso, por ejemplo, de Japón.
 Creo que, en líneas generales, está bien logrado porque logra sintetizar de forma intuitiva y legible información de suma importancia política. La información está actualizada y se muestra de forma clara, estética. La leyenda se entiende sin mayores dificultades, la tipografía es de un tamaño adecuado y, en general, el aspecto es tractivo y "simpático".
 Pese a lo dicho, sí haría una crítica a la diferenciación: no quedan claras las diferencias entre los mecanismos electivos c y d, ya que en ambos casos hay participación del Parlamento (por ejemplo, en EEUU o Alemania, es el Parlamento el que elige la jefatura del Estado), o sea, que se trata de una elección indirecta mediatizada por la aritmética parlamentaria. Quizá la idea sea que en el caso c el Parlamento no hace un nombramiento directo sino que el Gobierno tiene autonomía y se forma en base a la correlación de fuerzas/diputados parlamentarios, pero en cualquier caso, no queda claro.
+
+
+https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/e3ffd37c796ab0687e503b6535f8c154692b9cf1/eleccion-jefe-estado-mundo.png.webp
+
