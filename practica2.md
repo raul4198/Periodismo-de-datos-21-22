@@ -1,0 +1,7 @@
+La visualización de datos a continuación presentada se corresponde con un mapa interactivo elaborado por eldiario.es y que supone una representación visual del voto por zonas en la Comunidad de Madrid tras las elecciones de mayo del 2021. Se trata de una infografía pertinente por varios motivos.
+
+El primero de ellos es el hecho de estar en la comunidad en la que se han producido las elecciones; el segundo es la cercanía temporal a dichas elecciones. Es una infografía que satisface la curiosidad del elector porque permite averiguar los resultados concretos de cada partido ya no solo en cada barrio sino además en cada manzana.
+
+La leyenda cromática es clara: los partidos están correctamente identificados con sus colores más icónicos, y la perspectiva general da cuenta del hecho de que solo en sur el PSOE ha conseguido ciertas victorias en la comunidad. Un aspecto destacable es que la infografía es muy intuitiva: navegar por ella resulta fácil, con unos conocimientos rudimentarios es posible explorarla en profundidad. Quizá una manera de mejorarla hubiera sido ofrecer la posibilidad de consultar los resultados no ya solo de cada manzana, esto es, dar por ejemplo, la posibilidad de ver representada la distribución del voto en cada barrio, por ejemplo, o en cada distrito.
+
+Este mapa supone una representación gráfica idónea para aprovechar los recursos visuales e interactivos en el periodismo, ya que ofrece una información relevante y manejable
