@@ -1,4 +1,4 @@
-
+![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/eleccion-jefe-estado-mundo.png.webp)
 
 La visualización de datos a continuación presentada (cuyo enlace se sitúa al final de este comentario) se corresponde con un mapa interactivo elaborado por eldiario.es y que supone una representación visual del voto por zonas en la Comunidad de Madrid tras las elecciones de mayo del 2021. Se trata de una infografía pertinente por varios motivos.
 
