@@ -2,7 +2,7 @@
 
 # Cartografía de una mayoría casi absoluta
 
-La visualización de datos que presento en esta actividad (cuyo enlace sitúo al final de este comentario) se corresponde con un mapa interactivo elaborado por eldiario.es y que supone una representación visual del voto por zonas en la Comunidad de Madrid tras las elecciones de mayo del 2021. Se trata de una infografía pertinente por varios motivos.
+La visualización de datos que presento en esta actividad (cuyo enlace se sitúa al final de esta) se corresponde con un mapa interactivo elaborado por eldiario.es y que supone una representación visual del voto por zonas en la Comunidad de Madrid tras las elecciones de mayo del 2021. Se trata de una infografía pertinente por varios motivos.
 
 El primero de ellos es geográfico: estamos en la comunidad en la que se han producido las elecciones. El segundo es la cercanía temporal a dichas elecciones, sucedidas 8 meses. En tercer lugar, es una infografía que muestra de manera gráfica la distribución de votos de un resultado político trascendente (es decir, resulta pertinente por una cuestión de contenido). El mapa-visualización satisface (aunque también retroalimenta) la curiosidad del elector madrileño, porque permite averiguar los resultados concretos de cada partido en cada manzana, y esto le puede dar pie a comparaciones y a suposiciones e ideas nacidas de dichas comparaciones.
 
