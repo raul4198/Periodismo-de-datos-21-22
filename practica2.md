@@ -2,7 +2,7 @@
 
 # Cartografía de una mayoría casi absoluta
 
-La visualización de datos que presento en esta actividad (cuyo enlace se sitúa al final de la misma) se corresponde con un mapa interactivo elaborado por Raúl Sánchez y Victoria Oliveres (amnbos periodistas especializados en periodismo de datos) para eldiario.es. Se trata de una representación visual del voto por zonas en la Comunidad de Madrid tras las elecciones de mayo del 2021, y resulta pertinente por varios motivos.
+La visualización de datos que presento en esta actividad (cuyo enlace se sitúa al final de la misma) se corresponde con un mapa interactivo elaborado por Raúl Sánchez y Victoria Oliveres (ambos periodistas especializados en periodismo de datos) para eldiario.es. Se trata de una representación visual del voto por zonas en la Comunidad de Madrid tras las elecciones de mayo del 2021, y resulta pertinente por varios motivos.
 
 El primero de ellos es geográfico: estamos en la comunidad en la que se han producido las elecciones. El segundo es la cercanía temporal a dichas elecciones, sucedidas hace 8 meses. En tercer lugar, es una infografía que muestra de manera gráfica la distribución de votos de un resultado político trascendente (es decir, resulta pertinente por una cuestión de contenido). El mapa-visualización satisface (aunque también retroalimenta) la curiosidad del elector, porque permite averiguar los resultados concretos de cada partido en cada manzana, y esto le puede dar pie a comparaciones y a suposiciones e ideas nacidas de dichas comparaciones.
 
