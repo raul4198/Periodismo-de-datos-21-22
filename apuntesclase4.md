@@ -1,3 +1,5 @@
+Este apartado muestra algunos apuntes en bruto tomados durante la cuarta sesión de la asignatura. 
+
 El periodismo de datos se acerca al de investigación. Es un término que está en construcción.
 
 CSV son VALORES SEPARADOS POR COMAS
