@@ -1,3 +1,5 @@
+Este apartado muestra algunos apuntes en bruto tomados durante la segunda sesión de la asignatura. 
+
 INTRODUCCIÓN AL PERIODISMO DE DATOS
 
 Periodistas prendiendo a manejar ordenadores y a manejar datos. 
