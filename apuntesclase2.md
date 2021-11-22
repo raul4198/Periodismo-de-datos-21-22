@@ -1,3 +1,5 @@
+Este apartado muestra algunos apuntes en bruto tomados durante la segunda sesión de la asignatura. 
+
 URL – DIRECCIÓN
 La https es lo inicial, si es ssh es seguro. Eso es el protocolo.
 Los dos puntos separa el protocolo de la dirección. 
