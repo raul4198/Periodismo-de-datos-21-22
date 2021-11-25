@@ -1,6 +1,6 @@
 
 # Un feliz fin de semana pandémico
-![alt text]( https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/practica3imagen1.png)
+![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/imagenes/practica3imagen1.png)
 
 En este texto explico el proceso de creación de una infografía para la práctica 3 de la asignatura “Periodismo de datos”. Asimismo, describo y comento la infografía saliente, que se corresponde con la imagen que se aprecia encima de estas líneas.
 
@@ -8,7 +8,7 @@ Para crear el gráfico he utilizado Open Refine y Datawrapper. He empleado el ar
 
 Una vez hecho esto he comenzado un proceso de exploración. Dicho proceso ha tenido la finalidad de detectar tendencias, fenómenos o determinadas agrupaciones de datos que pudieran emplearse para extraer una información relevante para la realización de la infografía. En dicho proceso he utilizado diferentes opciones de Open Refine como el “timeline facet” para poder detectar tendencias en formato de datos agrupados visualmente, o la opción “merge” en “cluster” para unificar en la misma fila elementos similares que se habían tomado en distintas filas.
 
-![alt text]( https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/practica3imagen2.PNG)
+![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/imagenes/practica3imagen2.PNG)
 
 
 La tendencia observada es la asimetría existente entre el número de resultados arrojados felicitando el fin de semana en el primer estado de alarma (156 resultados; entre el 14 de marzo -el archivo empieza a arrojar resultados desde el 28- y 21 de junio; 98 días -1.6 resultados por día-) y el tercero (85 resultados, entre el 25 de octubre y el 9 de mayo; 195 días -0.44 resultados por día-). No ha sido considerado como relevante el escaso resultado del segundo estado de alarma, pues este fue el más breve temporalmente (no tuvo prórrogas, duró 15 días).
