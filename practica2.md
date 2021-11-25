@@ -1,4 +1,4 @@
-![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/practica2imagen1.PNG)
+![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/imagenes/practica2imagen1.PNG)
 
 # Cartografía de una mayoría casi absoluta
 
