@@ -26,6 +26,7 @@ Queda la visualización de datos. Para ella he utilizado Datawrapper, cargando e
 El tipo de gráfico que he empleado es “multiple pies”, porque de esta manera se muestra el espacio relativo que ocupa el número de personas de cada categoría en proporción a los habitantes del propio barrio. 
 
 En la pestaña “Refine” he modificado los colores de cada sección del gráfico (de cada “quesito”, para que se diferencien cromáticamente a simple vista) y en “annotate” le he colocado el título. He seleccionado el tamaño 800x505, esto es, algo más grande del tamaño que viene por defecto, porque así es como he corroborado que se aprecia mejor. 
+
 Da comienzo la “historia de periodismo de datos”, es decir, el comentario:
 ![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/imagenes/practica4imagen2.png)
 
