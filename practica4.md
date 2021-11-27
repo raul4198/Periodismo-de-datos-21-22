@@ -1,9 +1,14 @@
 # Barrios y formación en Getafe: una brecha geográfica
 
 En esta cuarta práctica tengo por objetivo, en primer lugar, presentar el proceso de creación de una visualización de datos, y, en segundo, realizar una historia periodística con ella. Los primeros párrafos de este texto se corresponden con el proceso de creación. Desde la segunda imagen (que se corresponderá con la visualización de datos) comienza la “historia”, la cual, siguiendo las indicaciones de la actividad, tiene que “trasladar los comentarios que habéis hecho de las infografías/visualizaciones de las actividades 1 y 2 a vuestro propio trabajo”. Contraintuitivamente a lo que “historia de periodismo/historia periodística” significa en el argot periodístico (esto es, crónica o reportaje), aquí historia vendría a ser, siguiendo las instrucciones ofrecidas, un “comentario” a la manera ejercida en las primeras prácticas. 
+
 El primero de los pasos para la creación de la visualización de datos es la recolección. Tras explorar por diversas fuentes institucionales que ofrecen datos en formato CSV, he decidido quedarme con un CSV proveniente del Ayuntamiento de Getafe, porque intuyo que nadie más lo hará y así puedo ofrecer algo más original. La página web del Ayuntamiento de Getafe contiene 17 archivos en formato CSV. Se pueden encontrar en el siguiente enlace: https://gobiernoabierto.getafe.es/datos
+
+
 El archivo escogido se llama “Habitantes por nivel de instrucción y barrios”. La tesis de la que parto es que si escojo el barrio de Getafe con más renta per cápita y el barrio con menos renta per cápita las diferencias serán notables, y se podrán ver reflejadas visualmente. El Bercial es el barrio que más y La Alhóndiga es el que menos renta per cápita tiene de los barrios de Getafe, siguiendo los datos de la Agencia Tributaria de 2019 (https://getaferadio.com/2019/01/23/el-bercial-sector-iii-y-perales-del-rio-los-barrios-con-mayor-renta-per-capita/). Cabe decir que no hay datos más actualizados porque la última vez que la Agencia Tributaria realizó su encuesta de declarantes del IRPF por municipios fue en 2019 (https://www.agenciatributaria.es/AEAT.internet/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF_por_municipios.shtml) 
+
 El CSV incluye todos los barrios, por lo que para limpiar los datos he cargado el archivo en Open Refine, he seleccionado los datos que he querido eliminar (esto es, todos menos los de los dos barrios escogidos) y los he eliminado con la opción remove matching rows. Asimismo, con “remove this column” he eliminado todas las columnas menos la del dato total de hombres y mujeres en cada categoría educativa. También he eliminado a los menores de 16 años, que están todavía en una temprana etapa educativa. Incluirlos distorsionaría los resultados, pues ningún menor de 16 años tiene educación superior (universitaria o no). 
+
 El número total de habitantes de cada barrio, a fecha de la última actualización del archivo por parte del Ayuntamiento de Getafe (1/09/2021) es de 19236 para El Bercial y de 22681 para La Alhóndiga. La diferencia demográfica no es demasiado grande, por lo que decido seguir empleando el número agregado de habitantes para mi análisis. 
 ![alt text]( https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/imagenes/practica4imagen1.PNG)
 
@@ -11,10 +16,15 @@ Con Open Refine he tenido problemas para agrupar en categorías más pequeñas (
 -Las categorías “no sabe leer ni escribir”, “sin estudios” y “enseñanza primaria incompleta” pasan a la categoría “Sin estudios”. 
 -Las categorías “enseñanza secundaria”, “FGP1 Grado medio”, “B. Sup. BUP, COU” y “Otras titulaciones medias” pasan a la categoría “Educación secundaria”
 -Las categorías “FP2 Grado Superior”, “Diplomados”, “Arquitecto, Ingeniero”, “Licenciado universitario”, “estudios superiores no universitarios” y “Doctorado/Posgrado” pasan a la categoría “Educación superior”
+
 En cuanto a la categoría “valor desconocido”, al contener valores ínfimos (14 en El Bercial y 26 en La Alhóndiga) y no funcionales para mi propósito, decido eliminarla.  
+
 Tras analizar los datos, se confirma lo que intuía acerca de la brecha en el nivel de estudios. En La Alhóndiga, el barrio con menor renta, hay 5230 personas sin estudios frente a las 1850 de El Bercial. Asimismo, en El Bercial hay 5148 personas con estudios superiores, mientras que este número es menor en La Alhóndiga: 3917. Tanto en un barrio como en otro, eso sí, es el grupo de la educación secundaria el mayoritario (6996 personas en El Bercial y 9636 en La Alhóndiga).
+
 Queda la visualización de datos. Para ella he utilizado Datawrapper, cargando el archivo resultante de la conversión categórica. 
+
 El tipo de gráfico que he empleado es “multiple pies”, porque de esta manera se muestra el espacio relativo que ocupa el número de personas de cada categoría en proporción a los habitantes del propio barrio. 
+
 En la pestaña “Refine” he modificado los colores de cada sección del gráfico (de cada “quesito”, para que se diferencien cromáticamente a simple vista) y en “annotate” le he colocado el título. He seleccionado el tamaño 800x505, esto es, algo más grande del tamaño que viene por defecto, porque así es como he corroborado que se aprecia mejor. 
 Da comienzo la “historia de periodismo de datos”, es decir, el comentario:
 ![alt text](https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/imagenes/practica4imagen2.png)
