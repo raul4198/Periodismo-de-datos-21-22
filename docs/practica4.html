@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Sticky Footer Navbar Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+
+<header>
+  <!--Raúl Ruiz García, práctica 5-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Raúl Ruiz García, práctica 5</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="metodologia.html">Metodología   </a>
+          </li>
+<li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="practica1.html">Práctica 1   </a>
+          </li>
+<li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="practica2.html">Práctica 2   </a>
+          </li>
+
+<li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="practica3.html">Práctica 3   </a>
+          </li>
+<li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="practica4.html">Práctica 4   </a>
+          </li>
+
+
+          <li class="nav-item">
+
+
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+
+
+<!-- Begin page content -->
+
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+<h1 id="barrios-y-formación-en-getafe-una-brecha-geográfica">Barrios y formación en Getafe: una brecha geográfica</h1>
+<p>En esta cuarta práctica tengo por objetivo, en primer lugar, presentar el proceso de creación de una visualización de datos, y, en segundo, realizar una historia period>
+<p>El primero de los pasos para la creación de la visualización de datos es la recolección. Tras explorar por diversas fuentes institucionales que ofrecen datos en formato>
+<p>El archivo escogido se llama “Habitantes por nivel de instrucción y barrios”. La tesis de la que parto es que si escojo el barrio de Getafe con más renta per cápita y e>
+<p>El CSV incluye todos los barrios, por lo que para limpiar los datos he cargado el archivo en Open Refine, he seleccionado los datos que he querido eliminar (esto es, to>
+<p>El número total de habitantes de cada barrio, a fecha de la última actualización del archivo por parte del Ayuntamiento de Getafe (1/09/2021) es de 19236 para El Bercial y de 22681 para La Alhóndiga. La diferencia demográfica no es demasiado grande, por lo que decido seguir empleando el número agregado de habitantes para mi análisis. 
+<img src="https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/docs/imagenes/practica4imagen1.PNG">
+<p>Con Open Refine he tenido problemas para agrupar en categorías más pequeñas (es decir, para aunar categorías) a los habitantes de los dos barrios por nivel de formación: al haber 15 categorías la visualización con Datawrapper no resultaba estética. Así que he descargado el archivo resultante de Open Refine y he agrupado los resultados rehaciendo el archivo en un programa de hojas de cálculo. De esta forma he reducido las 15 categorías a 4:
+-Las categorías “no sabe leer ni escribir”, “sin estudios” y “enseñanza primaria incompleta” pasan a la categoría “Sin estudios”. 
+-Las categorías “enseñanza secundaria”, “FGP1 Grado medio”, “B. Sup. BUP, COU” y “Otras titulaciones medias” pasan a la categoría “Educación secundaria”
+-Las categorías “FP2 Grado Superior”, “Diplomados”, “Arquitecto, Ingeniero”, “Licenciado universitario”, “estudios superiores no universitarios” y “Doctorado/Posgrado” pasan a la categoría “Educación superior”</p>
+<p>En cuanto a la categoría “valor desconocido”, al contener valores ínfimos (14 en El Bercial y 26 en La Alhóndiga) y no funcionales para mi propósito, decido eliminarla.  </p>
+<p>Tras analizar los datos, se confirma lo que intuía acerca de la brecha en el nivel de estudios. En La Alhóndiga, el barrio con menor renta, hay 5230 personas sin estudios frente a las 1850 de El Bercial. Asimismo, en El Bercial hay 5148 personas con estudios superiores, mientras que este número es menor en La Alhóndiga: 3917. Tanto en un barrio como en otro, eso sí, es el grupo de la educación secundaria el mayoritario (6996 personas en El Bercial y 9636 en La Alhóndiga).</p>
+<p>Queda la visualización de datos. Para ella he utilizado Datawrapper, cargando el archivo resultante de la conversión categórica. </p>
+<p>El tipo de gráfico que he empleado es “multiple pies”, porque de esta manera se muestra el espacio relativo que ocupa el número de personas de cada categoría en proporción a los habitantes del propio barrio. </p>
+<p>En la pestaña “Refine” he modificado los colores de cada sección del gráfico (de cada “quesito”, para que se diferencien cromáticamente a simple vista) y en “annotate” le he colocado el título. He seleccionado el tamaño 800x505, esto es, algo más grande del tamaño que viene por defecto, porque así es como he corroborado que se aprecia mejor. </p>
+<p>Da comienzo la “historia de periodismo de datos”, es decir, el comentario:
+<img src="https://github.com/raul4198/Periodismo-de-datos-21-22-apuntes-y-ejercicios-/blob/main/docs/imagenes/practica2imagen2.PNG">
+<h1 id="renta-superior-educaci-n-superior-habitantes-de-los-barrios-de-getafe-con-m-s-y-menos-renta-per-c-pita">Renta superior, educación superior: habitantes de los barrios de Getafe con más y menos renta per cápita</h1>
+<p>La visualización de datos que presento en esta actividad se corresponde con un gráfico circular doble en el que cada porción de este representa un determinado nivel educativo. Cada uno de los “quesos” se corresponde con un barrio de Getafe: El Bercial es el barrio con más renta per cápita de la ciudad y La Alhóndiga el barrio con menos renta per cápita de la ciudad.
+La utilización de distintas tonalidades cromáticas para la elaboración de cada sección ayuda a la visualización e interpretación de este. En concreto, se muestran tres tonalidades de azul claramente diferenciables entre sí (la leyenda identifica inequívocamente a qué categoría se corresponde cada color). En el interior de cada sección se encuentra el valor absoluto de cada una, es decir, el número de habitantes de cada barrio correspondiente a cada nivel educativo. El hecho de que el gráfico se muestre en este formato circular doble hace que la diferencia demográfica entre un barrio y otro no resulte relevante, ya que este muestra la proporción de categorías en base a un mismo espacio.</p>
+<p>Una manera de mejorar una representación gráfica como la presentada podría ser la elaboración de un mapa interactivo en el que la ciudad apareciese dividida por barrios, de tal forma que al hacer clic en cada uno se desplegara un gráfico circular que mostrase la estructura demográfico-educativa de cada barrio, a la manera aquí mostrada con El Bercial y La Alhóndiga. Quizá podría hacerse también un panel que permitiese seleccionar dos o más barrios y poder comparar su estructura demográfico-educativa, pudiendo visualizar conjuntamente varios “quesos” de distintos barrios.</p>
+<p>La información ofrecida es socialmente relevante porque, aunque correlación no necesariamente implica causalidad, la existencia de una brecha educativa entre zonas por nivel de renta es una cuestión que tiene distintas implicaciones políticas, sociales y económicas. Localizar brechas puede servir para indagar en causas, examinar problemáticas o constatar determinadas estructuras socioeconómicas de desigualdad. Considero que una de las formas más útiles de aprovechar los recursos de visualización de datos es emplearlos para precisamente ofrecer al público información socialmente relevante. </p>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">Raúl Ruiz García</h1>
+    <p class="lead">Proyecto final para periodismo de datos </code></p>
+    <p></p>
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted"></span>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>
+
