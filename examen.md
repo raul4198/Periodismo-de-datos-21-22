@@ -1,6 +1,6 @@
 100. ¿Quién es Philip Meyer?
 
-Philip Meyer fue un periodista de investigación estadounidense, nacido en 1930 y considerado el creador del periodismo de datos premoderno. Y esto, por sus aportaciones tecnológicas al periodismo de investigación en los años 60-70. Una de sus investigaciones más trascendentales fue Detroit Riots, realizada en 1967.  
+Philip Meyer es un periodista de investigación estadounidense, nacido en 1930 y considerado el creador del periodismo de datos premoderno. Y esto, por sus aportaciones tecnológicas al periodismo de investigación en los años 60-70. Una de sus investigaciones más trascendentales fue Detroit Riots, realizada en 1967.  
 
 
 101. ¿Quién fue Florence Nightingale? 
